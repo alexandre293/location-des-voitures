@@ -6,9 +6,20 @@ body {
     width: 20%;
     background-color: #F0E7BB;
     text-align: center;
-
+    display: inline-block;
+    height: 350px;
+    vertical-align: top;
+     
 }
 
 img {
-    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.button {
+    background-color:  #aef0c4;
+    text-decoration: none;
+    color: #524f4e;
 }
