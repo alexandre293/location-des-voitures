@@ -1,14 +1,18 @@
 body {
-    background-color: #DAB2F0;
+    background-color: #3848fc;
+    text-align: center;
 }
 
 .card {
     width: 20%;
-    background-color: #F0E7BB;
+    background-color: #94bbf7;
     text-align: center;
     display: inline-block;
     height: 350px;
     vertical-align: top;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
      
 }
 
@@ -16,10 +20,37 @@ img {
     height: auto;
     display: block;
     max-width: 100%;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .button {
-    background-color:  #aef0c4;
+    background-color:  #ffffff;
     text-decoration: none;
     color: #524f4e;
+    border-radius: 45px;
+    display: inline-block;
+    width: 40%;
+    font-size: 14px;
+    
+}
+
+.image1 {
+    height: 120px;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #524f4e;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-left: 100px;
+}
+
+.logo {
+    width: 120px;
+    background-color: white;
 }
