@@ -44,6 +44,7 @@ h1 {
     background-color: #524f4e;
     width: fit-content;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -53,4 +54,20 @@ h2 {
 .logo {
     width: 120px;
     background-color: white;
+    margin-top: 30px;
+}
+
+.menuitem {
+    margin: 5%;
+    
+
+}
+
+.menu {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 25px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 0 auto;
 }
