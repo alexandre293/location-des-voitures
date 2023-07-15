@@ -1,6 +1,7 @@
 body {
     background-color: #3848fc;
     text-align: center;
+    background: linear-gradient(9deg, rgba(196,45,97,1) 1%, rgba(139,85,51,1) 23%, rgba(88,121,9,0.7793242296918768) 43%, rgba(72,137,52,1) 53%, rgba(60,150,86,1) 61%, rgba(32,178,164,1) 79%, rgba(21,189,194,1) 86%, rgba(0,212,255,1) 100%);
 }
 
 .card {
