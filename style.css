@@ -35,9 +35,15 @@ img {
     
 }
 
+.tarifs {
+    margin-top: 100px;
+    font-size: 30px;
+    color: black;
+}
+
 .image1 {
     height: 120px;
-    margin-top: 10px;
+    margin-top: 10px
 }
 
 h1 {
@@ -84,4 +90,104 @@ h2 {
     margin: 0 auto;
    
    
+}
+
+table {
+    width: 80%;
+    margin:50px auto;
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: #ffffff;
+}
+
+td {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed gray;
+    border-right: 1px dashed gray ;
+    border-left:1px dashed gray ;
+}
+
+
+th {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+
+
+}
+
+.basic {
+    background-color:#F5A9E2;
+}
+
+.pro {
+    background-color: #E5AFF5;
+}
+
+.proo {
+    background-color:#D5BBF5 ;
+}
+
+.prooo {
+    background-color: #F5CBC2;
+}
+
+.prix {
+  
+   box-shadow: 1px 4px 8px gray;
+   border-radius: 3px;
+   padding: 15px;
+   margin: 0 auto;
+   background-color: #ffffff;
+}
+
+.prix-container {
+    background-color: #E5AFF5;
+}
+
+.tarif_caption img {
+    width:70px;
+    height: 70px;
+    display: flex;
+  
+}
+
+.tarif_caption {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center; 
+    margin-bottom: 20px;
+
+}
+
+.tarif_caption p {
+    font-size: 45px;
+    color: black;
+    text-shadow: 10px -10px 10px black;
+    display: flex;
+}
+
+.prix-button {
+    display: inline-block;
+    border: 1px solid black ;
+    text-decoration: none;
+    color:white;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 45px;
+    padding:20px 5px;  
+    margin: 20px;  
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 3px 4px grey;
+    
+
+
 }
