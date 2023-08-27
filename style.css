@@ -24,6 +24,10 @@ img {
     border-radius: 5px 5px 0px 0px;
 }
 
+.card img {
+    margin: auto;
+}
+
 .button {
     background-color:  #ffffff;
     text-decoration: none;
